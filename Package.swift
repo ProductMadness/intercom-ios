@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Intercom",
+    name: "ProductMadnessIntercomMLN-343",
     products: [
         .library(
             name: "Intercom",
@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Intercom",
-            url: "https://github.com/intercom/intercom-ios/releases/download/16.3.1/Intercom.xcframework.zip",
-            checksum: "427bedf9d6a34ac84c69dbdfa59204f60e3edf4ff4e65752b72aa1892721f34b"
+            url: "https://github.com/ProductMadness/intercom-ios/releases/download/16.3.1/Intercom.xcframework.zip",
+            checksum: "659e8eac25826d37137a21b6d1467c828c4159b53e848df5bffb545be234e99a"
         )
     ]
 )
